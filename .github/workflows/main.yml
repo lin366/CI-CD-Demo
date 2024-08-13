@@ -6,11 +6,12 @@ on:
   push:
     # 监听 main 分支
     branches:
-- main
+    - main
 
-pull_request:
-   branches:
-     - main
+  pull_request:
+    branches:
+    - main
+jobs:
 
 # 构建
  build:
